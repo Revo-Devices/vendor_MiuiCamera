@@ -22,3 +22,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/lib64,syste
 
 PRODUCT_PACKAGES += \
     MiuiCamera
+
+# MiuiCamera
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera.shutter_sound.blacklist=com.android.camera
