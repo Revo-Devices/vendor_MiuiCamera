@@ -143,7 +143,7 @@
     <!--whether replace a lower cost effect to avoid preview lag-->
     <bool name="is_camera_replace_higher_cost_effect">false</bool>
     <!--whether support manual focus/exposure_time in camera-->
-    <bool name="support_camera_manual_function">false</bool>
+    <bool name="support_camera_manual_function">true</bool>
     <!--whether capture when user press down the shutter in camera instead of left the shutter-->
     <bool name="support_camera_press_down_capture">true</bool>
     <!--whether support capture in torch mode in camera-->
